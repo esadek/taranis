@@ -1,2 +1,2 @@
-requests==2.5.4.1
+requests==2.26.0
 taranis==0.1.0
