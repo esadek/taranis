@@ -33,11 +33,10 @@ def get_temperature(city: str) -> str:
 
     Returns
     -------
-    temperature : str
+    str
         Current temperature for given city.
     """
-    temperature = get_weather(city)["temperature"]
-    return temperature
+    return get_weather(city)["temperature"]
 
 
 def get_wind(city: str) -> str:
@@ -50,11 +49,10 @@ def get_wind(city: str) -> str:
 
     Returns
     -------
-    wind : str
+    str
         Current wind speed for given city.
     """
-    wind = get_weather(city)["wind"]
-    return wind
+    return get_weather(city)["wind"]
 
 
 def get_description(city: str) -> str:
@@ -67,11 +65,10 @@ def get_description(city: str) -> str:
 
     Returns
     -------
-    description : str
+    str
         Description of current weather for given city.
     """
-    description = get_weather(city)["description"]
-    return description
+    return get_weather(city)["description"]
 
 
 def get_forecast(city: str) -> list:
@@ -84,8 +81,7 @@ def get_forecast(city: str) -> list:
 
     Returns
     -------
-    forecast : list
+    list
         List of dictionaries containing forecast data for given city.
     """
-    forecast = get_weather(city)["forecast"]
-    return forecast
+    return get_weather(city)["forecast"]
