@@ -1,6 +1,10 @@
 # Taranis
 
-Python API wrapper for [weather-api](https://github.com/robertoduessmann/weather-api).
+[![Version](https://img.shields.io/pypi/v/taranis)](https://pypi.org/project/taranis/)
+[![Build](https://img.shields.io/github/workflow/status/esadek/taranis/CI)](https://github.com/esadek/taranis/actions/workflows/ci.yml)
+[![License](https://img.shields.io/github/license/esadek/taranis)](https://github.com/esadek/taranis/blob/main/LICENSE)
+
+Taranis is a Python API wrapper for [weather-api](https://github.com/robertoduessmann/weather-api). It provides quick and easy retrieval of weather data for a given city.
 
 ## Installation:
 
@@ -11,6 +15,14 @@ pip install -U taranis
 ```
 
 ## Usage:
+
+Import the module:
+
+```python
+>>> import taranis
+```
+
+Then call any of the below functions:
 
 ```python
 >>> taranis.get_weather('San Francisco')
